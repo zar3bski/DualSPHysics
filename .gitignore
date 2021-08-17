@@ -19,3 +19,9 @@ bin/windows/*.iobj
 bin/windows/*.ipdb
 bin/windows/*.lib
 bin/windows/*.exp
+
+## Ignores compiled objects
+src/source/*.o
+
+## Ignores cmake build folder
+src/source/build
